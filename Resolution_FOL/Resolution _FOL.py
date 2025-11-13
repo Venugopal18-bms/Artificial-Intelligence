@@ -1,5 +1,3 @@
-# ---------- Resolution-based proof in Propositional Logic ----------
-# Goal: Show that KB ⊨ John_likes_peanuts  (prove by refutation)
 
 from collections import deque
 import pandas as pd
@@ -81,3 +79,4 @@ while new_added and step < max_steps:
                         exit()
 
 print("Resolution finished without deriving the empty clause (no proof found).")
+
